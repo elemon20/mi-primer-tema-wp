@@ -70,6 +70,10 @@ $table_prefix  = 'dl_';
  * en sus entornos de desarrollo.
  */
 define('WP_DEBUG', true);
+// Guardamos errores en /wp-content/debug.log
+define ( 'WP_DEBUG_LOG', true);
+// Ocultamos errores en pantalla
+define ( 'WP_DEBUG_DISPLAY', true);
 
 /* ¡Eso es todo, deja de editar! Feliz blogging */
 
